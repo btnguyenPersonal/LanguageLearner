@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 601px) {
+    .options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 600px) {
+    .options {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .options button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.pronounciation {
+    font-size: 128px;
+}
+
+.japanese {
+    font-size: 180px;
+}
+
+button {
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    width: 600px;
+    height: 200px;
+    border-radius: 24px;
+    margin-top: 50px;
+}

@@ -61,13 +61,13 @@ function getLevelScore(level) {
 
 function getLevelName(level) {
     if (level === 0) {
-        return 'simple-minded tyler';
+        return 'tiny-brain tyler';
     } else if (level === 1) {
         return 'coomer mark';
     } else if (level === 2) {
         return 'fresh-cut jason';
     } else if (level === 3) {
-        return 'kawaii brooke';
+        return 'bobo-hater brooke';
     } else if (level >= 4) {
         return 'GIGACHAD BEN';
     }
@@ -78,21 +78,28 @@ function render() {
     if (gameOver) {
         app.innerHTML = `
             <div>
-                <div>score: ${score}</div>
-                <div>level: ${getLevelName(level)}</div>
-                <div>You Fail! Game Over! (you are illiterate and retarded)</div>
+                <div class="score">
+                    <div>score: ${score} / ${getLevelScore(level)}</div>
+                    <div>level: ${getLevelName(level)}</div>
+                </div>
+                <div>You Fail! Game Over!</div>
+                <div>(you are illiterate and retarded)</div>
                 <button data-action="resetGame">reset game</button>
             </div>
         `;
     } else {
         app.innerHTML = `
             <div>
-                <div>score: ${score} / ${getLevelScore(level)}</div>
-                <div>level: ${getLevelName(level)}</div>
-                <div>${options[correctOption].japanese}</div>
-                <div>${options[correctOption].pronounciation}</div>
-                <button data-action="optionA">${options[0].translation}</button>
-                <button data-action="optionB">${options[1].translation}</button>
+                <div class="score">
+                    <div>score: ${score} / ${getLevelScore(level)}</div>
+                    <div>level: ${getLevelName(level)}</div>
+                </div>
+                <div class="japanese">${options[correctOption].japanese}</div>
+                <div class="pronounciation">${options[correctOption].pronounciation}</div>
+                <div class="options">
+                    <button data-action="optionA">${options[0].translation}</button>
+                    <button data-action="optionB">${options[1].translation}</button>
+                </div>
             </div>
         `;
     }
