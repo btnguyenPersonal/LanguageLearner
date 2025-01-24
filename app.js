@@ -98,7 +98,7 @@ function getAudio(level) {
     } else if (level === 1) {
         return '<audio id="background-noise" src="public/hentai.mp3" autoplay loop></audio>';
     } else if (level === 2) {
-        return 'fresh-cut jason';
+        return '<audio id="background-noise" src="public/brawl.mp3" autoplay loop></audio>';
     } else if (level === 3) {
         return '<audio id="background-noise" src="public/lovelive.mp3" autoplay loop></audio>';
     } else if (level >= 4) {
