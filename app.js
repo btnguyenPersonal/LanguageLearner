@@ -2,6 +2,7 @@ const words = [ { "japanese": "行く", "pronounciation": "iku", "translation": 
 
 const dirtyWords = [{ pronounciation: "inbu", japanese: "陰部", translation: "Genital area.", }, { pronounciation: "inkei", japanese: "陰茎", translation: "Penis.", }, { pronounciation: "inkei shoutai", japanese: "陰茎小帯", translation: "Penile frenulum.", }, { pronounciation: "shaseikan", japanese: "射精管", translation: "Ejaculatory duct.", }, { pronounciation: "zenritsusen", japanese: "前立腺", translation: "Prostate gland.", }, { pronounciation: "kougan", japanese: "睾丸", translation: "Testicle.", }, { pronounciation: "kuritorisu", japanese: "クリトリス", translation: "Clitoris.", }, { pronounciation: "inshin", japanese: "陰唇", translation: "Labia.", }, { pronounciation: "shouinshin", japanese: "小陰唇", translation: "Labia minora.", }, { pronounciation: "daiinshin", japanese: "大陰唇", translation: "Labia majora.", }, { pronounciation: "shikyuu", japanese: "子宮", translation: "Womb.", }, { pronounciation: "jii-supotto", japanese: "Ｇスポット", translation: "G-spot.", }, { pronounciation: "koumon", japanese: "肛門", translation: "Anus.", }, { pronounciation: "mune", japanese: "胸", translation: "Chest.", }, { pronounciation: "chibusa", japanese: "乳房", translation: "Breast.", }, { pronounciation: "nyuurin", japanese: "乳輪", translation: "Areola.", }, { pronounciation: "chikubi", japanese: "乳首", translation: "Nipple.", }, { pronounciation: "nyuutou", japanese: "乳頭", translation: "Teat.", }, { pronounciation: "asoko", japanese: "あそこ", translation: "There. May refer to the genital area, down there, private parts, etc.", }, { pronounciation: "nyou", japanese: "尿", translation: "Urine.", }, { pronounciation: "oshikko no ana", japanese: "おしっこの穴", translation: "Pee hole.", }, { pronounciation: "oshikko", japanese: "おしっこ", translation: "Pee.", }, { pronounciation: "oppai", japanese: "おっぱい", translation: "boobs.", }, { pronounciation: "sentakuita", japanese: "洗濯板", translation: "Washboard. (as in flat as a board.)", }, { pronounciation: "ketsu", japanese: "尻", translation: "Butt.", }, { pronounciation: "anaru", japanese: "アナル", translation: "Anal sex.", }, { pronounciation: "nikubou", japanese: "肉棒", translation: "Meat stick.", }, { pronounciation: "manko suru", japanese: "マンコする", translation: "To have sex.", }, { pronounciation: "omeko", japanese: "オメコ", translation: "Vagina. Pussy. (used more in Kansai.)", }, { pronounciation: "mekosuji", japanese: "メコスジ", translation: "Camel toe.", }, { pronounciation: "kuchi-manko", japanese: "口マンコ", translation: "Mouth-pussy.", }, { pronounciation: "nodo-manko", japanese: "喉マンコ", translation: "Throat-pussy.", }, { pronounciation: "te-manko", japanese: "手マンコ", translation: "Hand-pussy.", }, { pronounciation: "ashi-manko", japanese: "足マンコ", translation: "Foot-pussy.", }, { pronounciation: "meiki", japanese: "名器", translation: "Famed instrument/utensil. (an excellent vagina.)", }, { pronounciation: "moriman", japanese: "モリマン", translation: "to swell, to bulge.", }, { pronounciation: "sochin", japanese: "粗チン", translation: "Small penis.", }, { pronounciation: "yuruman", japanese: "ユルマン", translation: "Loose vagina.", }, { pronounciation: "kitsuman", japanese: "キツマン", translation: "Tight vagina.", }, { pronounciation: "kitsui", japanese: "きつい", translation: "Tight.", }, { pronounciation: "gekkei", japanese: "月経", translation: "Menstruation.", }, { pronounciation: "tanpon", japanese: "タンポン", translation: "Tampon.", }, { pronounciation: "gekkei kappu", japanese: "月経カップ", translation: "Menstrual cup.", }, { pronounciation: "bokki", japanese: "勃起", translation: "Erection.", }, { pronounciation: "bokki suru", japanese: "勃起する", translation: "To get erect.", }, { pronounciation: "tatsu", japanese: "立つ", translation: "penis standing up.", }, { pronounciation: "tento wo haru", japanese: "テントを張る", translation: "To have an erection while wearing pants, because of the tent-like shape it makes.", }, { pronounciation: "asadachi", japanese: "朝立ち (or 朝勃ち, 朝起ち)", translation: "Morning wood.", }, { pronounciation: "bokki fuzen", japanese: "勃起不全", translation: "Erectile dysfunction.", }, { pronounciation: "taieki", japanese: "体液", translation: "Bodily fluid.", }, { pronounciation: "ase", japanese: "汗", translation: "Sweat.", }, { pronounciation: "usui", japanese: "薄い", translation: "Thin. Watery.", }, { pronounciation: "koi", japanese: "濃い", translation: "Thick. Dense.", }, { pronounciation: "nigai", japanese: "苦い", translation: "Bitter.", }, { pronounciation: "shoppai", japanese: "塩っぱい", translation: "Salty.", }, { pronounciation: "zaamen", japanese: "ザーメン", translation: "Cum.", }, { pronounciation: "miruku", japanese: "ミルク", translation: "Milk.", }, { pronounciation: "nureru", japanese: "濡れる", translation: "To get wet.", }, { pronounciation: "aieki", japanese: "愛液", translation: "Love fluid.", }, { pronounciation: "manjiru", japanese: "マン汁", translation: "Pussy juice.", }, { pronounciation: "jidoku", japanese: "自涜", translation: "Masturbation.", }, { pronounciation: "paizuri", japanese: "パイズリ", translation: "Boob-rubbing.", }, { pronounciation: "ijiru", japanese: "弄る", translation: "To touch with one's hands, changing or probing it somehow", }, { pronounciation: "sawaru", japanese: "触る", translation: "To touch. (deliberately)", }, { pronounciation: "furu", japanese: "触る", translation: "To touch. (when two things happen to touch, whether deliberately or not.)", }, { pronounciation: "kosuru", japanese: "擦る", translation: "To rub. To touch against. (e.g. to rub against the fabric of one's clothes.)", }, { pronounciation: "shikoru", japanese: "シコる", translation: "To fap.", }, { pronounciation: "shikoshiko", japanese: "シコシコ", translation: "*fap fap.*", }, { pronounciation: "gansha", japanese: "顔射", translation: "Facial. Face shot. (ejaculating on someone's face.)", }, { pronounciation: "shasei suru", japanese: "射精する", translation: "To ejaculate.", }, { pronounciation: "shiofuki", japanese: "潮吹き", translation: "Female ejaculation. Squirting.", }, { pronounciation: "sakusei", japanese: "搾精", translation: "Semen milking.", }, { pronounciation: "sekkusu", japanese: "セックス", translation: "Sex.", }, { pronounciation: "sekkusu suru", japanese: "セックスする", translation: "To sex. To have sex.", }, { pronounciation: "sekuhara", japanese: "セクハラ", translation: "Sexual harassment.", }, { pronounciation: "sefure", japanese: "セフレ", translation: "Sex friend. Fuck buddy. (a friend whom you have sex with.)", }, { pronounciation: "ecchi", japanese: "エッチ", translation: "Perverted.", }, { pronounciation: "bicchi", japanese: "ビッチ", translation: "Slut.", }, { pronounciation: "neko", japanese: "ネコ", translation: "Bottom.", }, { pronounciation: "tachi", japanese: "タチ", translation: "Top.", }, { pronounciation: "seiteki koufun", japanese: "性的興奮", translation: "Sexual excitement. Arousal.", }, { pronounciation: "jouyoku", japanese: "情欲", translation: "Lust.", }, { pronounciation: "seiyoku", japanese: "性欲", translation: "Sexual desire.", }, { pronounciation: "uzuku", japanese: "疼く", translation: "To throb painfully.", }, { pronounciation: "hatsujou", japanese: "発情", translation: "Desire to mate.", }, { pronounciation: "eroi", japanese: "エロい", translation: "Erotic.", }, { pronounciation: "ero-kawaii", japanese: "エロ可愛い", translation: "Sexy and cute.", }, { pronounciation: "ecchi na", japanese: "エッチな", translation: "Lewd.", }, { pronounciation: "iroppoi", japanese: "色っぽい", translation: "Sexy.", }, { pronounciation: "ireru", japanese: "挿れる", translation: "To put in. (sexual.)", }, { pronounciation: "tsuku", japanese: "突く", translation: "To thrust.", }, { pronounciation: "pisuton", japanese: "ピストン", translation: "Piston. (as in the pistoning movement.)", }, { pronounciation: "shimaru", japanese: "締まる", translation: "To tighten.", }, { pronounciation: "zengi", japanese: "前戯", translation: "Foreplay.", }, { pronounciation: "kougi", japanese: "後戯", translation: "(stuff after sex.)", }, { pronounciation: "nama-hame", japanese: "生ハメ", translation: "Raw sex. Bareback.", }, { pronounciation: "seijoui", japanese: "正常位", translation: "Missionary.", }, { pronounciation: "kijoui", japanese: "騎乗位", translation: "Cowgirl. [Horse] Mounting Position.", }, { pronounciation: "gyaku-kijoui", japanese: "逆騎乗位", translation: "Reverse cowgirl.", }, { pronounciation: "bakku", japanese: "バック", translation: "Doggy style.", }, { pronounciation: "akume", japanese: "アクメ", translation: "Orgasm", }, { pronounciation: "iku", japanese: "イく (or イク)", translation: "To cum. To orgasm.", },]
 
+let gameStarted = false;
 let gameOver = false;
 let score = 0;
 let level = 0;
@@ -41,19 +42,34 @@ function nextRound() {
     score++;
     if (score >= getLevelScore(level)) {
         level++;
+        resetAudio();
     }
     resetOptions();
+}
+
+function getLevelImage(level) {
+    if (level === 0) {
+        return '<img src="public/tylerTinyBrain.png"></img>';
+    } else if (level === 1) {
+        return '<img src="public/poggies.gif"></img>';
+    } else if (level === 2) {
+        return '<img src="public/jasonFreshCut.jpg"></img>';
+    } else if (level === 3) {
+        return '<img src="public/brooke.jpg"></img>';
+    } else if (level >= 4) {
+        return '<img src="public/GIGACHAD.jpg"></img>';
+    }
 }
 
 function getLevelScore(level) {
     if (level === 0) {
         return 5;
     } else if (level === 1) {
-        return 25;
+        return 15;
     } else if (level === 2) {
-        return 50;
+        return 25;
     } else if (level === 3) {
-        return 100;
+        return 50;
     } else if (level >= 4) {
         return 9999;
     }
@@ -73,9 +89,38 @@ function getLevelName(level) {
     }
 }
 
-function render() {
-    const app = document.getElementById('app');
+function getAudio(level) {
     if (gameOver) {
+        return '<audio id="background-noise" src="public/retarded.mp3" autoplay loop></audio>';
+    }
+    if (level === 0) {
+        return '<audio id="background-noise" src="public/tunak.mp3" autoplay loop></audio>';
+    } else if (level === 1) {
+        return '<audio id="background-noise" src="public/hentai.mp3" autoplay loop></audio>';
+    } else if (level === 2) {
+        return 'fresh-cut jason';
+    } else if (level === 3) {
+        return '<audio id="background-noise" src="public/lovelive.mp3" autoplay loop></audio>';
+    } else if (level >= 4) {
+        return '<audio id="background-noise" src="public/gigachad.mp3" autoplay loop></audio>';
+    }
+}
+
+function render() {
+    const audio = document.getElementById('audio');
+    audio.innerHTML = `
+        <div>
+            ${getAudio(level)}
+        </div>
+    `;
+    const app = document.getElementById('app');
+    if (!gameStarted) {
+        app.innerHTML = `
+            <div>
+                <button data-action="startGame">start game</button>
+            </div>
+        `;
+    } else if (gameOver) {
         app.innerHTML = `
             <div>
                 <div class="score">
@@ -92,7 +137,10 @@ function render() {
             <div>
                 <div class="score">
                     <div>score: ${score} / ${getLevelScore(level)}</div>
-                    <div>level: ${getLevelName(level)}</div>
+                    <div>
+                        <div>level: ${getLevelName(level)}</div>
+                        ${getLevelImage(level)}
+                    </div>
                 </div>
                 <div class="japanese">${options[correctOption].japanese}</div>
                 <div class="pronounciation">${options[correctOption].pronounciation}</div>
@@ -110,6 +158,10 @@ function handleClick(event) {
     if (!action) return;
 
     switch(action) {
+        case 'startGame':
+            gameStarted = true;
+            render();
+            break;
         case 'resetGame':
             gameOver = false;
             score = 0;
@@ -138,4 +190,10 @@ function handleClick(event) {
 
 document.getElementById('app').addEventListener('click', handleClick);
 render();
+
+window.onload = function() {
+    var audio = document.getElementById("background-noise");
+    audio.play();
+};
+
 
