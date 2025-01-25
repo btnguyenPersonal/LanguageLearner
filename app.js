@@ -96,7 +96,7 @@ function getAudio(level) {
     if (level === 0) {
         return '<audio id="background-noise" src="public/tunak.mp3" autoplay loop></audio>';
     } else if (level === 1) {
-        return '<audio id="background-noise" src="public/hentai.mp3" autoplay loop></audio>';
+        return '<audio id="background-noise" src="public/dirty.mp3" autoplay loop></audio>';
     } else if (level === 2) {
         return '<audio id="background-noise" src="public/brawl.mp3" autoplay loop></audio>';
     } else if (level === 3) {
