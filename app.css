@@ -40,6 +40,18 @@ img {
     }
 }
 
+.yellow {
+    color: yellow;
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
 .pronounciation {
     font-size: 128px;
 }
