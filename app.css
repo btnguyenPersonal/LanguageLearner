@@ -9,12 +9,12 @@ img {
     max-height: 150px;
 }
 
-.score {
+.topRow {
     display: flex;
     justify-content: space-between;
 }
 
-@media (min-width: 601px) {
+@media (min-width: 1000px) {
     .options {
         display: flex;
         justify-content: space-between;
@@ -27,7 +27,7 @@ img {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 999px) {
     .options {
         flex-direction: column;
         align-items: stretch;
