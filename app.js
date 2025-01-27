@@ -57,17 +57,19 @@ function nextRound() {
 }
 
 function getLevelImage(level) {
+    let path;
     if (level === 0) {
-        return '<img src="public/tylerTinyBrain.png"></img>';
+        path = 'tylerTinyBrain.png';
     } else if (level === 1) {
-        return '<img src="public/poggies.gif"></img>';
+        path =  'poggies.gif';
     } else if (level === 2) {
-        return '<img src="public/jasonFreshCut.jpg"></img>';
+        path =  'jasonFreshCut.jpg';
     } else if (level === 3) {
-        return '<img src="public/brooke.jpg"></img>';
+        path =  'brooke.jpg';
     } else if (level >= 4) {
-        return '<img src="public/GIGACHAD.jpg"></img>';
+        path = 'GIGACHAD.jpg"';
     }
+    return `<div class="wiggle-${level}"><img src="public/${path}"></img></div>`;
 }
 
 function getLevelScore(level) {
@@ -99,20 +101,22 @@ function getLevelName(level) {
 }
 
 function getAudio(level) {
+    let path;
     if (gameOver) {
-        return '<audio id="background-noise" src="public/lose.mp3" autoplay loop></audio>';
+        path = 'lose.mp3';
     }
     if (level === 0) {
-        return '<audio id="background-noise" src="public/tunak.mp3" autoplay loop></audio>';
+        path = 'tunak.mp3';
     } else if (level === 1) {
-        return '<audio id="background-noise" src="public/dirty.mp3" autoplay loop></audio>';
+        path = 'dirty.mp3';
     } else if (level === 2) {
-        return '<audio id="background-noise" src="public/brawl.mp3" autoplay loop></audio>';
+        path = 'brawl.mp3';
     } else if (level === 3) {
-        return '<audio id="background-noise" src="public/lovelive.mp3" autoplay loop></audio>';
+        path = 'brooke.mp3';
     } else if (level >= 4) {
-        return '<audio id="background-noise" src="public/gigachad.mp3" autoplay loop></audio>';
+        path = 'gigachad.mp3';
     }
+    return `<audio id="background-noise" src="public/${path}" autoplay loop></audio>`;
 }
 
 function getLivesColor() {
