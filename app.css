@@ -40,6 +40,11 @@ img {
     }
 }
 
+.center-vert {
+    margin-top: 15%;
+    margin-bottom: auto;
+}
+
 .yellow {
     color: yellow;
 }
@@ -68,4 +73,10 @@ button {
     height: 200px;
     border-radius: 24px;
     margin-top: 50px;
+}
+
+.menuButton {
+    font-size: 32px;
+    width: 250px;
+    height: 100px;
 }

@@ -135,8 +135,9 @@ function render() {
     const app = document.getElementById('app');
     if (!gameStarted) {
         app.innerHTML = `
-            <div>
-                <button data-action="startGame">start game</button>
+            <div class="center-vert">
+                <div class="yellow">Language Learner</div>
+                <button class="menuButton" data-action="startGame">start game</button>
             </div>
         `;
     } else if (gameOver) {
@@ -159,7 +160,7 @@ function render() {
                         <div>${fail.japanese} | ${fail.pronounciation} | ${fail.translation}</div>
                     `;
                 }).join('')}
-                <button data-action="resetGame">reset game</button>
+                <button class="menuButton" data-action="resetGame">reset game</button>
             </div>
         `;
     } else {
